@@ -40,7 +40,7 @@ Result
 
 ![ ](https://user-images.githubusercontent.com/22459679/53334591-4a44f480-390a-11e9-8c69-6ce0a4b73de8.PNG)
 
-**Nested for structure 8x8 chess table **
+**Nested for structure 8x8 chess table**
 
 ![ ](https://user-images.githubusercontent.com/22459679/53334592-4a44f480-390a-11e9-8e90-5d6f967350a2.PNG)
 
@@ -99,3 +99,14 @@ Result
 Result
 
  ![ ](https://user-images.githubusercontent.com/22459679/53336205-af024e00-390e-11e9-96b6-2103b6575ef8.PNG)
+ 
+ **Using while loop with case**
+
+![ ](https://user-images.githubusercontent.com/22459679/53336616-ddccf400-390f-11e9-8ae3-dd6bc886a56d.PNG)
+
+Result
+
+ ![ ](https://user-images.githubusercontent.com/22459679/53336619-e02f4e00-390f-11e9-89bb-a851370fe624.PNG)
+ ![ ](https://user-images.githubusercontent.com/22459679/53336621-e1607b00-390f-11e9-8d91-783b94d66000.PNG)
+ ![ ](https://user-images.githubusercontent.com/22459679/53336622-e291a800-390f-11e9-92ad-6c6df5168b4a.PNG)
+
