@@ -40,7 +40,7 @@ Result
 
 ![ ](https://user-images.githubusercontent.com/22459679/53334591-4a44f480-390a-11e9-8c69-6ce0a4b73de8.PNG)
 
-**Nested for structure 8x8 chess table  **
+**Nested for structure 8x8 chess table **
 
 ![ ](https://user-images.githubusercontent.com/22459679/53334592-4a44f480-390a-11e9-8e90-5d6f967350a2.PNG)
 
@@ -56,17 +56,15 @@ Result
 
  ![ ](https://user-images.githubusercontent.com/22459679/53335476-9f820580-390c-11e9-940f-d3404b4b7674.PNG)
  
- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`**While Loop**
+ **While Loop**
 
 ![ ](https://user-images.githubusercontent.com/22459679/53335485-a1e45f80-390c-11e9-9ae1-0006f52487e3.PNG)
 
-Result
-
 ![ ](https://user-images.githubusercontent.com/22459679/53335491-a4df5000-390c-11e9-95df-db04ef94f837.PNG)
 
-![ ](https://user-images.githubusercontent.com/22459679/53335487-a3ae2300-390c-11e9-9a80-c26831d76817.PNG)
-
 Result
+
+![ ](https://user-images.githubusercontent.com/22459679/53335487-a3ae2300-390c-11e9-9a80-c26831d76817.PNG)
 
  ![ ](https://user-images.githubusercontent.com/22459679/53335632-099aaa80-390d-11e9-90f8-3ab29a8577fd.PNG)
  
