@@ -68,4 +68,34 @@ Result
 
  ![ ](https://user-images.githubusercontent.com/22459679/53335632-099aaa80-390d-11e9-90f8-3ab29a8577fd.PNG)
  
+**Using while with reading a text files**
 
+![ ](https://user-images.githubusercontent.com/22459679/53336192-a90c6d00-390e-11e9-83fd-8fcff15921af.PNG)
+
+Result
+
+ ![ ](https://user-images.githubusercontent.com/22459679/53336197-ab6ec700-390e-11e9-8512-4327c99cbe8a.PNG)
+ 
+ **Reading a file with separate files**
+
+![ ](https://user-images.githubusercontent.com/22459679/53336198-ac075d80-390e-11e9-8f1f-29ec6ade5e11.PNG)
+
+Result
+
+ ![ ](https://user-images.githubusercontent.com/22459679/53336201-ae69b780-390e-11e9-9177-c2c3ea0092a3.PNG)
+ 
+ **Reading etc/passwd files**
+
+![ ](https://user-images.githubusercontent.com/22459679/53336202-ae69b780-390e-11e9-9efa-23d872219453.PNG)
+
+Result
+
+ ![ ](https://user-images.githubusercontent.com/22459679/53336203-ae69b780-390e-11e9-9c09-f071b929f2e7.PNG)
+ 
+ **Reading etc/passwd with using separator**
+
+![ ](https://user-images.githubusercontent.com/22459679/53336204-af024e00-390e-11e9-8bb7-7e0b267b3457.PNG)
+
+Result
+
+ ![ ](https://user-images.githubusercontent.com/22459679/53336205-af024e00-390e-11e9-96b6-2103b6575ef8.PNG)
