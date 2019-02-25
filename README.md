@@ -110,3 +110,10 @@ Result
  ![ ](https://user-images.githubusercontent.com/22459679/53336621-e1607b00-390f-11e9-8d91-783b94d66000.PNG)
  ![ ](https://user-images.githubusercontent.com/22459679/53336622-e291a800-390f-11e9-92ad-6c6df5168b4a.PNG)
 
+ **Select command**
+
+![ ](https://user-images.githubusercontent.com/22459679/53336974-11f4e480-3911-11e9-9414-9e12fec4baa2.PNG)
+
+Result
+
+ ![ ](https://user-images.githubusercontent.com/22459679/53336975-11f4e480-3911-11e9-8840-7905bc269f93.PNG)
