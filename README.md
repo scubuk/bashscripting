@@ -49,9 +49,10 @@ Rename the files and directories.
 It is used to remove a file. It doesn't remove directories.
 ![](https://user-images.githubusercontent.com/22459679/53399507-30181e80-39bd-11e9-9cb9-14d79a073913.PNG)
 
-* rm command able to move directories with **-r** parameter.
 
-*rm -r directory
+**rm -r directory**
+
+* rm command able to move directories with **-r** parameter.
 
 ![ ](https://user-images.githubusercontent.com/22459679/53407706-d66c2000-39cd-11e9-8add-eb04f0cb35de.PNG)
 
