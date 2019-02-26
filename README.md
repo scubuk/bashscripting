@@ -24,6 +24,7 @@ Changes the current directory.
 ![](https://user-images.githubusercontent.com/22459679/53399503-2f7f8800-39bd-11e9-9d9f-3905a047341b.PNG)
 
 * touch
+Creates blank file.
 
 ![](https://user-images.githubusercontent.com/22459679/53399504-2f7f8800-39bd-11e9-8162-e2896f3f4581.PNG)
 
