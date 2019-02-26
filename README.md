@@ -3,39 +3,41 @@
 # Basic Linux Commands 
 
 * pwd
-Print Working Directory
+Print Working Directory, displays the name of current working directory.
 
 ![](https://user-images.githubusercontent.com/22459679/53398874-bd5a7380-39bb-11e9-92c8-0371d8025e06.PNG)
 
 * ls
+Lists file and directories in the current working directory.
 
 ![](https://user-images.githubusercontent.com/22459679/53398871-bd5a7380-39bb-11e9-9779-0b312fc25f7c.PNG)
 
 ![](https://user-images.githubusercontent.com/22459679/53398872-bd5a7380-39bb-11e9-8c9a-9835b4f164ba.PNG)
 
 * cd
+Changes the current directory.
 
-![]()
+![](https://user-images.githubusercontent.com/22459679/53399508-30181e80-39bd-11e9-9f64-02875776efb7.PNG)
 
 * dir
 
-![]()
+![](https://user-images.githubusercontent.com/22459679/53399503-2f7f8800-39bd-11e9-9d9f-3905a047341b.PNG)
 
 * touch
 
-![]()
+![](https://user-images.githubusercontent.com/22459679/53399504-2f7f8800-39bd-11e9-8162-e2896f3f4581.PNG)
 
 * mkdir
 
-![]()
+![](https://user-images.githubusercontent.com/22459679/53399505-2f7f8800-39bd-11e9-86e9-648d93075f6e.PNG)
 
 * mv
 
-![]()
+![](https://user-images.githubusercontent.com/22459679/53399506-2f7f8800-39bd-11e9-97b7-6b91501ca913.PNG)
 
 * rm
 
-![]()
+![](https://user-images.githubusercontent.com/22459679/53399507-30181e80-39bd-11e9-9cb9-14d79a073913.PNG)
 
 * rmdir
 
