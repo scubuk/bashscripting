@@ -29,40 +29,46 @@ Creates blank file.
 ![](https://user-images.githubusercontent.com/22459679/53399504-2f7f8800-39bd-11e9-8162-e2896f3f4581.PNG)
 
 * mkdir
+Create a new directory with a name.
 
 ![](https://user-images.githubusercontent.com/22459679/53399505-2f7f8800-39bd-11e9-86e9-648d93075f6e.PNG)
 
 * mv
-
+Rename the files and directories.
 ![](https://user-images.githubusercontent.com/22459679/53399506-2f7f8800-39bd-11e9-97b7-6b91501ca913.PNG)
 
 * rm
-
+It is used to remove a file. It doesn't remove directories.
 ![](https://user-images.githubusercontent.com/22459679/53399507-30181e80-39bd-11e9-9cb9-14d79a073913.PNG)
 
+rm command able to move directories with -r parameter.
+rm -r directory
+
+! [ ](https://user-images.githubusercontent.com/22459679/53407706-d66c2000-39cd-11e9-8add-eb04f0cb35de.PNG)
+
 * rmdir
+ It is used to remove a directory.
 
-![]()
-
-* less
-
-![]()
-
-* chmod
-
-![]()
-
-* chown
-
-![]()
-
-* man
-
-![]()
+![](https://user-images.githubusercontent.com/22459679/53407707-d704b680-39cd-11e9-8749-c76e373d6118.PNG)
 
 * cat
+It is used to read, modify text files. Display file content.
 
-![]()
+![](https://user-images.githubusercontent.com/22459679/53407708-d704b680-39cd-11e9-83ee-6ac1e2aedff5.PNG)
+
+* chmod
+Changes the permission of one or more files.
+
+![](https://user-images.githubusercontent.com/22459679/53407711-d79d4d00-39cd-11e9-9672-ea3a503cd099.PNG)
+
+* man
+It provides documentation about commands.
+
+![](https://user-images.githubusercontent.com/22459679/53407716-d9ffa700-39cd-11e9-8a04-9879cf7117c2.PNG)
+
+* less
+It is
+![](https://user-images.githubusercontent.com/22459679/53407710-d79d4d00-39cd-11e9-9f86-bfe9d7b3f151.PNG)
 
 * head
 
