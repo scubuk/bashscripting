@@ -1,5 +1,78 @@
 # bashscripting
 
+# Basic Linux Commands 
+
+* pwd
+Print Working Directory
+
+![](https://user-images.githubusercontent.com/22459679/53398874-bd5a7380-39bb-11e9-92c8-0371d8025e06.PNG)
+
+* ls
+
+![](https://user-images.githubusercontent.com/22459679/53398871-bd5a7380-39bb-11e9-9779-0b312fc25f7c.PNG)
+
+![](https://user-images.githubusercontent.com/22459679/53398872-bd5a7380-39bb-11e9-8c9a-9835b4f164ba.PNG)
+
+* cd
+
+![]()
+
+* dir
+
+![]()
+
+* touch
+
+![]()
+
+* mkdir
+
+![]()
+
+* mv
+
+![]()
+
+* rm
+
+![]()
+
+* rmdir
+
+![]()
+
+* less
+
+![]()
+
+* chmod
+
+![]()
+
+* chown
+
+![]()
+
+* man
+
+![]()
+
+* cat
+
+![]()
+
+* head
+
+![]()
+
+* tail
+
+![]()
+
+* vi
+
+![]()
+
 **For Loop**
 
 ![ ](https://user-images.githubusercontent.com/22459679/53334227-32b93c00-3909-11e9-868f-d307f06a0d0f.PNG)
@@ -8,7 +81,7 @@ Result
 
  ![ ](https://user-images.githubusercontent.com/22459679/53334228-3351d280-3909-11e9-83d0-e90527222c41.PNG)
 
-**Using with command**
+**Using for loop with commands**
 
 ![ ](https://user-images.githubusercontent.com/22459679/53334229-3351d280-3909-11e9-948a-d97feafe73b2.PNG)
 
