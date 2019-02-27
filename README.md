@@ -53,6 +53,9 @@ Changes the current directory.
 
 **dir**
 
+Used to get a list of all the files and folders in the current directory.
+
+
 ![](https://user-images.githubusercontent.com/22459679/53399503-2f7f8800-39bd-11e9-9d9f-3905a047341b.PNG)
 
 **touch**
@@ -285,7 +288,26 @@ Result
 
  ![ ](https://user-images.githubusercontent.com/22459679/53336205-af024e00-390e-11e9-96b6-2103b6575ef8.PNG)
  
+ 
+ **Using while loop with case**
+
+![ ](https://user-images.githubusercontent.com/22459679/53336616-ddccf400-390f-11e9-8ae3-dd6bc886a56d.PNG)
+
+Result
+
+ ![ ](https://user-images.githubusercontent.com/22459679/53336619-e02f4e00-390f-11e9-89bb-a851370fe624.PNG)
+ ![ ](https://user-images.githubusercontent.com/22459679/53336621-e1607b00-390f-11e9-8d91-783b94d66000.PNG)
+ ![ ](https://user-images.githubusercontent.com/22459679/53336622-e291a800-390f-11e9-92ad-6c6df5168b4a.PNG)
+
+ **Select command**
+ 
  ```
+ select var in <list>
+do
+<commands>
+done
+```
+```
  #!/bin/sh
 if [ "$X" -lt "0" ]
 then
@@ -323,25 +345,7 @@ fi
 [ -n $X ] && echo "X is of non-zero length" || \
       echo "X is of zero length"
  ```
- **Using while loop with case**
-
-![ ](https://user-images.githubusercontent.com/22459679/53336616-ddccf400-390f-11e9-8ae3-dd6bc886a56d.PNG)
-
-Result
-
- ![ ](https://user-images.githubusercontent.com/22459679/53336619-e02f4e00-390f-11e9-89bb-a851370fe624.PNG)
- ![ ](https://user-images.githubusercontent.com/22459679/53336621-e1607b00-390f-11e9-8d91-783b94d66000.PNG)
- ![ ](https://user-images.githubusercontent.com/22459679/53336622-e291a800-390f-11e9-92ad-6c6df5168b4a.PNG)
-
- **Select command**
  
- ```
- select var in <list>
-do
-<commands>
-done
-```
-
 ![ ](https://user-images.githubusercontent.com/22459679/53336974-11f4e480-3911-11e9-9414-9e12fec4baa2.PNG)
 
 Result
