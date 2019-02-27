@@ -132,12 +132,16 @@ It is used to ..
 
 ![]()
 
-**For Loop**
+**If Statement**
+
 ```
-if [ ... ]; then
-  # do something
+if [ <some test> ]
+then
+<commands>
 fi
 ```
+
+
 ```
 if [ ... ]
 then
@@ -148,6 +152,17 @@ fi
 
 ```
 ```
+if [ <some test> ]
+then
+<commands>
+elif [ <some test> ] 
+then
+<different commands>
+else
+<other commands>
+fi
+```
+```
 if  [ something ]; then
  echo "Something"
  elif [ something_else ]; then
@@ -156,6 +171,15 @@ if  [ something ]; then
    echo "None of the above"
 fi
 ```
+**For Loop**
+
+```
+for var in <list>
+do
+<commands>
+done
+```
+
 ![ ](https://user-images.githubusercontent.com/22459679/53334227-32b93c00-3909-11e9-868f-d307f06a0d0f.PNG)
 
 Result
@@ -211,6 +235,13 @@ Result
  ![ ](https://user-images.githubusercontent.com/22459679/53335476-9f820580-390c-11e9-940f-d3404b4b7674.PNG)
  
  **While Loop**
+ 
+```
+while [ <some test> ]
+do
+<commands>
+done
+```
 
 ![ ](https://user-images.githubusercontent.com/22459679/53335485-a1e45f80-390c-11e9-9ae1-0006f52487e3.PNG)
 
@@ -254,6 +285,44 @@ Result
 
  ![ ](https://user-images.githubusercontent.com/22459679/53336205-af024e00-390e-11e9-96b6-2103b6575ef8.PNG)
  
+ ```
+ #!/bin/sh
+if [ "$X" -lt "0" ]
+then
+  echo "X is less than zero"
+fi
+if [ "$X" -gt "0" ]; then
+  echo "X is more than zero"
+fi
+[ "$X" -le "0" ] && \
+      echo "X is less than or equal to  zero"
+[ "$X" -ge "0" ] && \
+      echo "X is more than or equal to zero"
+[ "$X" = "0" ] && \
+      echo "X is the string or number \"0\""
+[ "$X" = "hello" ] && \
+      echo "X matches the string \"hello\""
+[ "$X" != "hello" ] && \
+      echo "X is not the string \"hello\""
+[ -n "$X" ] && \
+      echo "X is of nonzero length"
+[ -f "$X" ] && \
+      echo "X is the path of a real file" || \
+      echo "No such file: $X"
+[ -x "$X" ] && \
+      echo "X is the path of an executable file"
+[ "$X" -nt "/etc/passwd" ] && \
+      echo "X is a file which is newer than /etc/passwd"
+
+ ```
+ 
+ ```
+ #!/bin/sh
+[ $X -ne 0 ] && echo "X isn't zero" || echo "X is zero"
+[ -f $X ] && echo "X is a file" || echo "X is not a file"
+[ -n $X ] && echo "X is of non-zero length" || \
+      echo "X is of zero length"
+ ```
  **Using while loop with case**
 
 ![ ](https://user-images.githubusercontent.com/22459679/53336616-ddccf400-390f-11e9-8ae3-dd6bc886a56d.PNG)
@@ -265,6 +334,13 @@ Result
  ![ ](https://user-images.githubusercontent.com/22459679/53336622-e291a800-390f-11e9-92ad-6c6df5168b4a.PNG)
 
  **Select command**
+ 
+ ```
+ select var in <list>
+do
+<commands>
+done
+```
 
 ![ ](https://user-images.githubusercontent.com/22459679/53336974-11f4e480-3911-11e9-9414-9e12fec4baa2.PNG)
 
