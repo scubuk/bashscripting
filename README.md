@@ -1,10 +1,17 @@
-# bashscripting
-
-# Basic Linux Commands 
-
 # MobaXterm
 
-[Download from here.](https://mobaxterm.mobatek.net/download.html)
+[Download home edition from here.](https://mobaxterm.mobatek.net/download.html)
+
+![](https://user-images.githubusercontent.com/22459679/53493856-70ef6080-3aad-11e9-9a7d-07c9419f611f.PNG)
+
+![](https://user-images.githubusercontent.com/22459679/53493859-7187f700-3aad-11e9-9964-5ab49853a6dc.png)
+
+![](https://user-images.githubusercontent.com/22459679/53493858-7187f700-3aad-11e9-8b27-42b80e5b2dfb.PNG)
+
+![](https://user-images.githubusercontent.com/22459679/53493857-7187f700-3aad-11e9-9d99-4690d3e691bc.PNG)
+
+
+# Basic Linux Commands 
 
 **pwd**
 
