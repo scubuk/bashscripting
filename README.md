@@ -2,9 +2,15 @@
 
 [Download home edition from here.](https://mobaxterm.mobatek.net/download.html)
 
+**Create Local Shell**
+
 ![](https://user-images.githubusercontent.com/22459679/53493856-70ef6080-3aad-11e9-9a7d-07c9419f611f.PNG)
 
 **Start new session**
+
+* Click session from toolbar.
+* Select SSH.
+* Enter your remote host name. If you want to specify username, click checkbox and write root.
 
 ![](https://user-images.githubusercontent.com/22459679/53493859-7187f700-3aad-11e9-9964-5ab49853a6dc.png)
 
@@ -96,7 +102,8 @@ It provides documentation about commands.
 
 **less**
 
-It is
+It is used to ..
+
 ![](https://user-images.githubusercontent.com/22459679/53407710-d79d4d00-39cd-11e9-9f86-bfe9d7b3f151.PNG)
 
 **more**
