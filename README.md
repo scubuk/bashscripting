@@ -2,9 +2,17 @@
 
 [Download home edition from here.](https://mobaxterm.mobatek.net/download.html)
 
+* Follow the instruction prompts and 
+
 **Create Local Shell**
 
+* Open MobaXterm and click Start Local Terminal on home page.
+
 ![](https://user-images.githubusercontent.com/22459679/53493856-70ef6080-3aad-11e9-9a7d-07c9419f611f.PNG)
+ 
+ * Your local shell is ready.
+ 
+![](https://user-images.githubusercontent.com/22459679/53494995-13104800-3ab0-11e9-9500-8c76a671ca79.PNG)
 
 **Start new session**
 
