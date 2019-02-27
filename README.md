@@ -133,7 +133,29 @@ It is used to ..
 ![]()
 
 **For Loop**
+```
+if [ ... ]; then
+  # do something
+fi
+```
+```
+if [ ... ]
+then
+  # if-code
+else
+  # else-code
+fi
 
+```
+```
+if  [ something ]; then
+ echo "Something"
+ elif [ something_else ]; then
+   echo "Something else"
+ else
+   echo "None of the above"
+fi
+```
 ![ ](https://user-images.githubusercontent.com/22459679/53334227-32b93c00-3909-11e9-868f-d307f06a0d0f.PNG)
 
 Result
