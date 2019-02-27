@@ -6,6 +6,8 @@
 
 ![](https://user-images.githubusercontent.com/22459679/53493859-7187f700-3aad-11e9-9964-5ab49853a6dc.png)
 
+**Start new session**
+
 ![](https://user-images.githubusercontent.com/22459679/53493858-7187f700-3aad-11e9-8b27-42b80e5b2dfb.PNG)
 
 ![](https://user-images.githubusercontent.com/22459679/53493857-7187f700-3aad-11e9-9d99-4690d3e691bc.PNG)
