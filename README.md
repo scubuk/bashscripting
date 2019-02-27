@@ -33,7 +33,7 @@
 
 **pwd**
 
-Print Working Directory, displays the name of current working directory.
+Print working directory; displays the name of current working directory.
 
 ![](https://user-images.githubusercontent.com/22459679/53398874-bd5a7380-39bb-11e9-92c8-0371d8025e06.PNG)
 
