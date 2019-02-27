@@ -2,7 +2,7 @@
 
 [Download home edition from here.](https://mobaxterm.mobatek.net/download.html)
 
-* Follow the instruction prompts and 
+* Follow the installation wizard and install MobaXterm.
 
 **Create Local Shell**
 
