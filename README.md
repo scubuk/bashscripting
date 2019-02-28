@@ -138,6 +138,7 @@ It is used to ..
 
 **If Statement**
 
+if
 ```
 if [ <some test> ]
 then
@@ -145,6 +146,7 @@ then
 fi
 ```
 
+if-else
 ```
 if [ <some test> ]
 then
@@ -154,6 +156,8 @@ else
 fi
 
 ```
+
+if-elif-else
 ```
 if [ <some test> ]
 then
@@ -200,7 +204,7 @@ Result
 
  ![ ](https://user-images.githubusercontent.com/22459679/53334228-3351d280-3909-11e9-83d0-e90527222c41.PNG)
 
-**Using for loop with commands**
+**Using for loop with command parameters**
 
 ![ ](https://user-images.githubusercontent.com/22459679/53334229-3351d280-3909-11e9-948a-d97feafe73b2.PNG)
 
@@ -208,7 +212,7 @@ Result
 
 ![ ](https://user-images.githubusercontent.com/22459679/53334230-3351d280-3909-11e9-9340-01ce19160406.PNG)
 
-**Using with files**
+**Using for loop with files**
 
 ![ ](https://user-images.githubusercontent.com/22459679/53334231-3351d280-3909-11e9-88c0-f12afbd69dc2.PNG)
 
@@ -216,7 +220,7 @@ Result
 
  ![ ](https://user-images.githubusercontent.com/22459679/53334232-33ea6900-3909-11e9-8064-ed6355efb7d6.PNG)
  
- **Printing the file names**
+ **Printing the file names using for loop**
  
  ![ ](https://user-images.githubusercontent.com/22459679/53334567-44e7aa00-390a-11e9-94f1-72f551aa081f.PNG)
  
@@ -229,13 +233,12 @@ Result
  ```
 for var in <list>
 do
- for var in <list>
- do
- <commands>
- done
+  for var in <list>
+  do
+  <commands>
+  done
 done
 ```
-
 
 ![ ](https://user-images.githubusercontent.com/22459679/53334590-4a44f480-390a-11e9-91d2-f92b620d1ce4.PNG)
 
@@ -283,14 +286,12 @@ fi
       echo "X is less than or equal to  zero"
 [ "$X" -ge "0" ] && \
       echo "X is greater than or equal to zero"
-[ "$X" = "0" ] && \
-      echo "X is the string or number \"0\""
 [ "$X" = "hello" ] && \
       echo "X matches the string \"hello\""
 [ "$X" != "hello" ] && \
       echo "X is not the string \"hello\""
 [ -f "$X" ] && \
-      echo "X is the path of a real file" || \
+      echo "X is a file" || \
       echo "No such file: $X"
 [ "$X" -nt "/etc/passwd" ] && \
       echo "X is a file which is newer than /etc/passwd"
@@ -315,7 +316,9 @@ Result
 
  ![ ](https://user-images.githubusercontent.com/22459679/53336197-ab6ec700-390e-11e9-8512-4327c99cbe8a.PNG)
  
- **Reading a file with separate files**
+ **Reading a file with separator**
+
+IFS: ....
 
 ![ ](https://user-images.githubusercontent.com/22459679/53336198-ac075d80-390e-11e9-8f1f-29ec6ade5e11.PNG)
 
@@ -333,7 +336,6 @@ Result
  
  **Reading etc/passwd with using separator**
  
- IFS: ....
 
 ![ ](https://user-images.githubusercontent.com/22459679/53336204-af024e00-390e-11e9-8bb7-7e0b267b3457.PNG)
 
