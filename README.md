@@ -144,13 +144,12 @@ then
 fi
 ```
 
-
 ```
-if [ ... ]
+if [ <some test> ]
 then
-  # if-code
+  <commands>
 else
-  # else-code
+  <commands>
 fi
 
 ```
@@ -166,14 +165,15 @@ else
 fi
 ```
 ```
-if  [ something ]; then
- echo "Something"
- elif [ something_else ]; then
-   echo "Something else"
+if  [ <some test> ]; then
+ <commands>
+ elif [ <some test> ]; then
+   <commands>
  else
-   echo "None of the above"
+   <commands>
 fi
 ```
+
 **For Loop**
 
 ```
@@ -231,7 +231,41 @@ Result
 
 **Test conditions**
 
+ ```
+ #!/bin/sh
+[ $X -ne 0 ] && echo "X isn't zero" || echo "X is zero"
+[ -f $X ] && echo "X is a file" || echo "X is not a file"
+ ```
+
 ![ ](https://user-images.githubusercontent.com/22459679/53335469-9b55e800-390c-11e9-9b6c-6cc4ef524cdf.PNG)
+
+```
+ #!/bin/sh
+if [ "$X" -lt "0" ]
+then
+  echo "X is less than zero"
+fi
+if [ "$X" -gt "0" ]; then
+  echo "X is greater than zero"
+fi
+[ "$X" -le "0" ] && \
+      echo "X is less than or equal to  zero"
+[ "$X" -ge "0" ] && \
+      echo "X is greater than or equal to zero"
+[ "$X" = "0" ] && \
+      echo "X is the string or number \"0\""
+[ "$X" = "hello" ] && \
+      echo "X matches the string \"hello\""
+[ "$X" != "hello" ] && \
+      echo "X is not the string \"hello\""
+[ -f "$X" ] && \
+      echo "X is the path of a real file" || \
+      echo "No such file: $X"
+[ "$X" -nt "/etc/passwd" ] && \
+      echo "X is a file which is newer than /etc/passwd"
+
+ ```
+ 
 
 Result
 
@@ -307,44 +341,6 @@ do
 <commands>
 done
 ```
-```
- #!/bin/sh
-if [ "$X" -lt "0" ]
-then
-  echo "X is less than zero"
-fi
-if [ "$X" -gt "0" ]; then
-  echo "X is more than zero"
-fi
-[ "$X" -le "0" ] && \
-      echo "X is less than or equal to  zero"
-[ "$X" -ge "0" ] && \
-      echo "X is more than or equal to zero"
-[ "$X" = "0" ] && \
-      echo "X is the string or number \"0\""
-[ "$X" = "hello" ] && \
-      echo "X matches the string \"hello\""
-[ "$X" != "hello" ] && \
-      echo "X is not the string \"hello\""
-[ -n "$X" ] && \
-      echo "X is of nonzero length"
-[ -f "$X" ] && \
-      echo "X is the path of a real file" || \
-      echo "No such file: $X"
-[ -x "$X" ] && \
-      echo "X is the path of an executable file"
-[ "$X" -nt "/etc/passwd" ] && \
-      echo "X is a file which is newer than /etc/passwd"
-
- ```
- 
- ```
- #!/bin/sh
-[ $X -ne 0 ] && echo "X isn't zero" || echo "X is zero"
-[ -f $X ] && echo "X is a file" || echo "X is not a file"
-[ -n $X ] && echo "X is of non-zero length" || \
-      echo "X is of zero length"
- ```
  
 ![ ](https://user-images.githubusercontent.com/22459679/53336974-11f4e480-3911-11e9-9414-9e12fec4baa2.PNG)
 
