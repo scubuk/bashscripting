@@ -338,7 +338,12 @@ Result
  ```
  select var in <list>
 do
-<commands>
+ case $var in
+  case1)....;;
+  case2)....;;
+  ...
+  ....
+  case*)....;;
 done
 ```
  
