@@ -23,6 +23,7 @@
 * Select SSH.
 * Enter your remote host name. 
 * If you want to specify username, click checkbox and write root.
+* Click OK.
 
 ![](https://user-images.githubusercontent.com/22459679/53493858-7187f700-3aad-11e9-8b27-42b80e5b2dfb.PNG)
 
@@ -174,6 +175,16 @@ if  [ <some test> ]; then
 fi
 ```
 
+![ ](https://user-images.githubusercontent.com/22459679/53335485-a1e45f80-390c-11e9-9ae1-0006f52487e3.PNG)
+
+![ ](https://user-images.githubusercontent.com/22459679/53335491-a4df5000-390c-11e9-95df-db04ef94f837.PNG)
+
+Result
+
+![ ](https://user-images.githubusercontent.com/22459679/53335487-a3ae2300-390c-11e9-9a80-c26831d76817.PNG)
+
+ ![ ](https://user-images.githubusercontent.com/22459679/53335632-099aaa80-390d-11e9-90f8-3ab29a8577fd.PNG)
+
 **For Loop**
 
 ```
@@ -214,6 +225,17 @@ Result
  ![ ](https://user-images.githubusercontent.com/22459679/53334589-49ac5e00-390a-11e9-9689-4e36c3a66e7c.PNG)
  
  **Nested for structure**
+ 
+ ```
+for var in <list>
+do
+ for var in <list>
+ do
+ <commands>
+ done
+done
+```
+
 
 ![ ](https://user-images.githubusercontent.com/22459679/53334590-4a44f480-390a-11e9-91d2-f92b620d1ce4.PNG)
 
@@ -231,6 +253,10 @@ Result
 
 **Test conditions**
 
+```
+[some test condition] && true_ || false_
+```
+
  ```
  #!/bin/sh
 [ $X -ne 0 ] && echo "X isn't zero" || echo "X is zero"
@@ -239,7 +265,12 @@ Result
 
 ![ ](https://user-images.githubusercontent.com/22459679/53335469-9b55e800-390c-11e9-9b6c-6cc4ef524cdf.PNG)
 
-```
+
+ Result
+
+ ![ ](https://user-images.githubusercontent.com/22459679/53335476-9f820580-390c-11e9-940f-d3404b4b7674.PNG)
+ 
+ ```
  #!/bin/sh
 if [ "$X" -lt "0" ]
 then
@@ -266,11 +297,6 @@ fi
 
  ```
  
-
-Result
-
- ![ ](https://user-images.githubusercontent.com/22459679/53335476-9f820580-390c-11e9-940f-d3404b4b7674.PNG)
- 
  **While Loop**
  
 ```
@@ -280,15 +306,6 @@ do
 done
 ```
 
-![ ](https://user-images.githubusercontent.com/22459679/53335485-a1e45f80-390c-11e9-9ae1-0006f52487e3.PNG)
-
-![ ](https://user-images.githubusercontent.com/22459679/53335491-a4df5000-390c-11e9-95df-db04ef94f837.PNG)
-
-Result
-
-![ ](https://user-images.githubusercontent.com/22459679/53335487-a3ae2300-390c-11e9-9a80-c26831d76817.PNG)
-
- ![ ](https://user-images.githubusercontent.com/22459679/53335632-099aaa80-390d-11e9-90f8-3ab29a8577fd.PNG)
  
 **Using while with reading a text files**
 
@@ -315,6 +332,8 @@ Result
  ![ ](https://user-images.githubusercontent.com/22459679/53336203-ae69b780-390e-11e9-9c09-f071b929f2e7.PNG)
  
  **Reading etc/passwd with using separator**
+ 
+ IFS: ....
 
 ![ ](https://user-images.githubusercontent.com/22459679/53336204-af024e00-390e-11e9-8bb7-7e0b267b3457.PNG)
 
@@ -324,6 +343,19 @@ Result
  
  
  **Using while loop with case**
+ 
+ ```
+ while 
+ do
+ ..
+  case $var in
+  case 1)....;;
+  case 2)....;;
+  ..
+  ..
+  esac
+ done 
+ ```
 
 ![ ](https://user-images.githubusercontent.com/22459679/53336616-ddccf400-390f-11e9-8ae3-dd6bc886a56d.PNG)
 
