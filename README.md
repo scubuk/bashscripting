@@ -114,27 +114,6 @@ It provides documentation about commands.
 
 ![](https://user-images.githubusercontent.com/22459679/53407716-d9ffa700-39cd-11e9-8a04-9879cf7117c2.PNG)
 
-**less**
-
-It is used to ..
-
-![](https://user-images.githubusercontent.com/22459679/53407710-d79d4d00-39cd-11e9-9f86-bfe9d7b3f151.PNG)
-
-**more**
-
-![]()
-
-**head**
-
-![]()
-
-**tail**
-
-![]()
-
-**vi**
-
-![]()
 
 **If Statement**
 
